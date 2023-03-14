@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(139, 27, 27);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    color: aliceblue;
+    border: 5px solid black;
+}
+
+.logo{
+    width: 200px;
+    font-size: 40px;
+}
+
+UL{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav > ul > li{
+    padding-left: 16px;
+    font-weight: 600;
+    height: 80px;
+    padding: 25px;
+}
+
+nav > ul > li:hover {
+    background-color: rgb(37, 15, 15);
+    height: 80px;
+    margin-top: -20px;
+}
+
+.hero{
+    width: 100vw;
+    height: 400px;
+    background-image: url(flamengo.jpg);
+    background-size: 1600px;
+    background-position: 50% 48%;
+    display: flex;
+    justify-content: center;
+}
+
+.textodestaques{
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+    text-shadow: 2px 2px black;
+}
+
+main{
+    width: 100vw;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main > h2{
+    font-size: 40px;
+    color: black;
+}
+
+.linha{
+    width: 80vw;
+    height: 5px;
+    background-color: red;
+    margin: 20px 0;
+}
+
+main > p{
+    font-size: 30px;
+}
+
+.cards{
+    margin: 30px;
+    width: calc(100vw - 60px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cards img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.cards img:hover{
+    opacity: 0.7;
+}
+
+.cards > .card > .info{
+    background-color: brown;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5px;
+}
+
+.cards > .card > .info > .blusa{
+    color: aliceblue;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.cards > .card > .info > .precos{
+    background-color: rgba(0, 0, 0, 0.341);
+    width: 250px;
+    padding: 25px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 30px;
+    font-size: 25px;
+}
+
+main > a:link{
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(202, 189, 189);
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 20px;
+    font-weight: 600px;
+    transition: background-color;
+}
+
+main > a:hover{
+    background-color: rgb(136, 136, 136);
+}
+
+footer{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    padding: 30px;
+}
+
+footer > .endereco{
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.sociais ul{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sociais li{
+    padding-top: 16px;
+    color: aliceblue;
+}
